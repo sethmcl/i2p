@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#editor {
+  height: 500px;
+}
+
+#result {
+  font-size: 75%;
+  color: green;
+}
+
+#result.error {
+  color: red;
+}

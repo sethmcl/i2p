@@ -1,0 +1,18 @@
+var __result;
+var alert = function (value) {
+  __result = value;
+};
+
+{{&userCode}}
+
+if (__result === 34.908) {
+  return {
+    correct: true,
+    message: 'Good job!'
+  };
+} else {
+  return {
+    correct: false,
+    message: ['Expected', 34.908, 'but got', __result].join(' ')
+  };
+}
